@@ -1,0 +1,29 @@
+{
+    "name": "prima-ca/laravel-monkeypatch",
+    "description": "Safe Macroable",
+    "keywords": [
+        "laravel",
+        "macroable",
+        "macro",
+        "monkeypatch"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyrus\\Traits\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
